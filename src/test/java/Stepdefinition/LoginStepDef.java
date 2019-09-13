@@ -27,9 +27,8 @@ public class LoginStepDef {
 		loginfe.login();
 	}
 
-	@Then("^success message is displayed$")
-	public void success_message_is_displayed() throws Throwable {
-
+	@Then("^user successfully logged out$")
+	public void user_successfully_logged_out() throws Throwable {	 
 		loginfe.logout();
 	}
 

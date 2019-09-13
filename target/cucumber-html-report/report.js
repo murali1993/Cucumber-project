@@ -37,35 +37,35 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "success message is displayed",
+  "name": "user successfully logged out",
   "keyword": "Then "
 });
 formatter.match({
   "location": "LoginStepDef.user_is_on_homepage()"
 });
 formatter.result({
-  "duration": 8169433364,
+  "duration": 7233111390,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDef.user_navigates_to_Login_Page()"
 });
 formatter.result({
-  "duration": 1737713703,
+  "duration": 1754542010,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDef.user_enters_username_and_Password()"
 });
 formatter.result({
-  "duration": 6972515832,
+  "duration": 6199325639,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDef.success_message_is_displayed()"
+  "location": "LoginStepDef.user_successfully_logged_out()"
 });
 formatter.result({
-  "duration": 2812136907,
+  "duration": 2909713325,
   "status": "passed"
 });
 });
